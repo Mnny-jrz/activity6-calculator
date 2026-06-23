@@ -51,3 +51,6 @@ class Calculator(Operation):
             if again != 'y':
                 print("Thank you!")
                 break
+if __name__ == "__main__":
+    calc = Calculator()
+    calc.start()
